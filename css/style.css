@@ -1,8 +1,31 @@
 @import url(../css/fonts.css);
 
-.test{
+/* navigtion */
 
-    font-family: "Inter";
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+    max-width: 100%;  
+    min-width: 50px;
+    
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+
+    padding:0 2rem 0 5rem;
+    
+}
+.header_area .main-menu .navbar {
+
+ padding: 1rem 15rem;   
+
+}
+
+.header_area .main-menu .nav-item .nav-link{
+
+    font-family: Inter;
+    font-weight: 500; 
     font-style: normal;
-
+    text-transform: uppercase;
+    color: black;
 }
