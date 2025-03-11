@@ -1,31 +1,48 @@
 @import url(../css/fonts.css);
+@import url(./partials/_variables.css);
 
-/* navigtion */
+/* navigtion styles starter */
 
 .navbar-brand img {
     height: 40px;
     width: auto;
     max-width: 100%;  
-    min-width: 50px;
+     min-width: 50px; 
     
 }
 
-.header_area .main-menu .navbar .navbar-brand {
+ .header_area .main-menu .navbar .navbar-brand {
 
-    padding:0 2rem 0 5rem;
+    padding-left: 20%;
     
 }
 .header_area .main-menu .navbar {
 
- padding: 1rem 15rem;   
+   padding-right: 20%;
 
-}
+} 
 
 .header_area .main-menu .nav-item .nav-link{
-
-    font-family: Inter;
+    /* font: normal 500 1rem var(--Inter); -- this is font property and it used to add those below properties in one line */
+    font-family: var(--Inter);
     font-weight: 500; 
     font-style: normal;
     text-transform: uppercase;
-    color: black;
+    color: var(--title-color);
+} 
+
+.header_area .main-menu .navbar-nav .nav-link.active {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
+
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* nevigation styles end */
