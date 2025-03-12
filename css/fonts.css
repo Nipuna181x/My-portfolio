@@ -1,14 +1,13 @@
 @font-face {
-    font-family: "Inter";
-    src: url(../Fonts/Inter/Inter_18pt-Medium.ttf);
-    font-weight: 500; /* Medium weight */
-    font-style: normal;
+  font-family: "Inter";
+  src: url(../Fonts/Inter/Inter_18pt-Medium.ttf);
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Inter";
-    src: url(../Fonts/Inter/Inter_18pt-Italic.ttf);
-    font-weight: normal;
-    font-style: italic; /* Define it as italic */
+  font-family: "Inter";
+  src: url(../Fonts/Inter/Inter_18pt-Italic.ttf);
+  font-weight: normal;
+  font-style: italic; /* Define it as italic */
 }
-

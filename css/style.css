@@ -1,48 +1,85 @@
 @import url(../css/fonts.css);
 @import url(./partials/_variables.css);
+@import url(../css/partials/_globle.css);
 
-/* navigtion styles starter */
+/* --------------------navigtion styles -------------------- */
 
 .navbar-brand img {
-    height: 40px;
-    width: auto;
-    max-width: 100%;  
-     min-width: 50px; 
-    
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+  min-width: 50px;
 }
 
- .header_area .main-menu .navbar .navbar-brand {
-
-    padding-left: 20%;
-    
+.header_area .main-menu .navbar .navbar-brand {
+  padding-left: 20%;
 }
+
 .header_area .main-menu .navbar {
+  padding-right: 20%;
+}
 
-   padding-right: 20%;
-
-} 
-
-.header_area .main-menu .nav-item .nav-link{
-    /* font: normal 500 1rem var(--Inter); -- this is font property and it used to add those below properties in one line */
-    font-family: var(--Inter);
-    font-weight: 500; 
-    font-style: normal;
-    text-transform: uppercase;
-    color: var(--title-color);
-} 
+.header_area .main-menu .nav-item .nav-link {
+  /* font: normal 500 1rem var(--Inter); -- this is font property and it used to add those below properties in one line */
+  font-family: var(--Inter);
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
 
 .header_area .main-menu .navbar-nav .nav-link.active {
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-/* nevigation styles end */
+/* --------------------Banner Area-------------------- */
+
+.site-main .site-banner {
+  background-image: url(../img/home-banner.png);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+    font-family:inter;
+  padding-top: 35%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    
+    font-size:4rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size:1.5rem
+}
+
+.site-main .site-banner .Banner-img img{
+    
+  padding: 7rem 0;
+  width: 90rem;   
+   
+}
+
+
