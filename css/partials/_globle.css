@@ -56,3 +56,11 @@
     color: whitesmoke;
     box-shadow: var(--box-shadow);
 }
+p.para{
+
+  color: var(--text-color);
+  font-family: (--Inter);
+  font-style: normal;
+   line-height: 25px;
+
+}

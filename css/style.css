@@ -48,6 +48,7 @@
   background-image: url(../img/home-banner.png);
   background-repeat: no-repeat;
   background-position: 0% 50%;
+  
 }
 
 .site-main .site-banner .site-title h3 {
@@ -83,3 +84,30 @@
 }
 
 
+/* --------------------About Area-------------------- */
+
+.site-main .about-area{
+  padding: 8rem 5rem;
+}
+
+.site-main  .about-area .about-title h2>span{
+
+  display: block;
+  font-family:(--Inter);
+  font-weight: 700;
+  letter-spacing: 12px;
+}
+
+.site-main  .about-area .about-title .paragraph>p{
+
+  padding: 4 rem 0rem;
+  
+}
+ 
+/* --------------------Contact Area-------------------- */
+.site-main .contact-area {
+
+  padding: 1rem 20rem;
+
+  
+}
