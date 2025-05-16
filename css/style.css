@@ -4,110 +4,29 @@
 
 /* --------------------navigtion styles -------------------- */
 
-.navbar-brand img {
-  height: 40px;
-  width: auto;
-  max-width: 100%;
-  min-width: 50px;
+.navbar-brand{
+    padding: 0 2rem 0 5rem;
+    font-family:Inter;
+    text-transform: uppercase;
+    font-weight: 850;
+}
+.dropdown{
+    padding: 0 2rem;
 }
 
-.header_area .main-menu .navbar .navbar-brand {
-  padding-left: 20%;
-}
-
-.header_area .main-menu .navbar {
-  padding-right: 20%;
-}
-
-.header_area .main-menu .nav-item .nav-link {
-  /* font: normal 500 1rem var(--Inter); -- this is font property and it used to add those below properties in one line */
-  font-family: var(--Inter);
-  font-weight: 500;
-  font-style: normal;
-  text-transform: uppercase;
-  color: var(--title-color);
-}
-
-.header_area .main-menu .navbar-nav .nav-link.active {
-  background: var(--gradient-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.header_area .main-menu .navbar-nav a:hover {
-  background: var(--gradient-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* --------------------Banner Area-------------------- */
-
-.site-main .site-banner {
-  background-image: url(../img/home-banner.png);
-  background-repeat: no-repeat;
-  background-position: 0% 50%;
+.profile-image {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1/1;
   
 }
 
-.site-main .site-banner .site-title h3 {
-    font-family:inter;
-  padding-top: 35%;
-  font-weight: 500;
-}
-
-.site-main .site-banner .site-title h3::after {
-  content: "";
-  height: 2px;
-  width: 18vw;
-  background: black;
-  display: inline-block;
-  margin-left: 5%;
-  transform: translateY(-10px);
-}
-
-.site-main .site-banner .site-title h1{
-    
-    font-size:4rem;
-}
-
-.site-main .site-banner .site-title h4{
-    font-size:1.5rem
-}
-
-.site-main .site-banner .Banner-img img{
-    
-  padding: 7rem 0;
-  width: 90rem;   
-   
+.home-img {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
-/* --------------------About Area-------------------- */
-
-.site-main .about-area{
-  padding: 8rem 5rem;
-}
-
-.site-main  .about-area .about-title h2>span{
-
-  display: block;
-  font-family:(--Inter);
-  font-weight: 700;
-  letter-spacing: 12px;
-}
-
-.site-main  .about-area .about-title .paragraph>p{
-
-  padding: 4 rem 0rem;
-  
-}
- 
-/* --------------------Contact Area-------------------- */
-.site-main .contact-area {
-
-  padding: 1rem 20rem;
-
-  
-}
